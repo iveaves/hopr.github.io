@@ -1,0 +1,261 @@
+*{
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18;
+	color:white;
+	background:#111111;
+	background-image: url('../../assets/img/background.svg');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+	font-size: 24;
+}
+/*<!-- Navbar -->*/
+#navbar{
+	width:100vw;
+	height:80px;
+	background: #111111;
+	position:fixed;
+	z-index: 10;
+}
+
+#navbar.scrolled {
+  background-color: #333333;
+  transition: background-color 200ms linear;
+}
+
+#navlogo{
+	position: relative;
+	height:50px;
+	left:30px;
+	top:50%;
+	transform: translateY(-50%);
+}
+.navitem{
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+	float:right;
+	margin-right:60px;
+	font-weight: bold;
+}
+
+#aboutbutton{
+	text-decoration: none;
+}
+
+/*<!-- Section 1 -->*/
+#intro{
+	position: relative;
+	height:90vh;
+	vertical-align: middle;
+	top:80px;
+	background-image: url('../../assets/img/background.svg');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#introleft{
+	position: relative;
+	width:50vw;
+	height:80vh;
+	text-align: left;
+	float:left;
+}
+
+#introtext{
+	font-size: 50px;
+	position:relative;
+	top:45%;
+	transform:translateY(-50%);
+	left:16vw;
+}
+
+#introright{
+	position: relative;
+	width:50vw;
+	height:80vh;
+	float:left;
+}
+
+#phonepic{
+	position:relative;
+	width:300px;
+	height:610px;
+	background:white;
+	left:50%;
+	transform: translateX(-50%);
+	top:50px;
+	border-radius: 30px;
+}
+
+#phonecontent{
+	position: relative;
+	width:280px;
+	top:55px;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+/*<!-- Section 2 -->*/
+#scroll-one{
+	position: relative;
+	background: gold;
+	height:150px;
+	vertical-align: middle;
+}
+
+/*<!-- Section 3 -->*/
+#about{
+	position: relative;
+	background-image: url('../../assets/img/bar.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+	height:400px;
+	-webkit-transform: translateZ(500px) scale(1.1);
+    transform: translateZ(500px) scale(1.1);
+}
+#aboutbox{
+	position: relative;
+	width:60vw;
+	height:30vh;
+	left:20vw;
+	top:50%;
+	transform:translateY(-50%);
+	background-image: url('../../assets/img/background.svg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutblurb{
+	position: relative;
+	font-size:40px;
+	text-align: center;
+	top:50%;
+	transform: translateY(-50%);
+	color: white;
+}
+
+/*<!-- Section 4 -->*/
+#scroll-three{
+	position:relative;
+	height:150px;
+	width:100vw;
+	background:gold;
+}
+
+/*<!-- Section 5 -->*/
+#instructions-container{
+	position:relative;
+	width:100vw;
+	height:auto;
+}
+
+#instructions{
+	position:relative;
+	width:70vw;
+	height:auto;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+.hints{
+	position:relative;
+	font-size: 40px;
+	left:120px;
+	font-weight: ;
+	color: gold;
+}
+
+#vibehint{
+	left:50px;
+}
+
+#musichint{
+	left:150px;
+}
+
+.threeboxes{
+	position:relative;
+	margin-top:120px;
+	margin-bottom: 120px;
+}
+
+.reacts{
+	position:relative;
+	width:160px;
+	float:right;
+	top:-100px;
+}
+
+#vibereact{
+	float:left;
+	top:-55px;
+}
+
+/*<!-- Section 6 -->*/
+#scroll-four{
+	position: relative;
+	width:100vw;
+	height:150px;
+	background-image: url('../../assets/img/bartwo.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: translateZ(500px) scale(1.1);
+    transform: translateZ(500px) scale(1.1);
+}
+
+/*<!-- Section 7 -->*/
+#submit{
+	width:100vw;
+	height:450px;
+	background:gold;
+	font-size: 40px;
+	position:relative;
+}
+
+#submittext{
+	position: relative;
+	width:30vw;
+	left:50%;
+	transform:translateX(-50%);
+	font-weight: bold;
+	top:20%;
+	text-align: center;
+	color:#111111;
+}
+
+/*<!-- Section 8 -->*/
+#legal{
+	position:relative;
+	width:100vw;
+	height:100px;
+	background:#111111;
+}
+
+#copyright{
+	position:relative;
+	float:right;
+	margin-right: 50px;
+	color:#999999;
+	top:50%;
+	transform:translateY(-50%);
+}
