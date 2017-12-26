@@ -4,6 +4,10 @@
 	padding:0;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18;
@@ -14,6 +18,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 a{
@@ -129,6 +135,7 @@ a{
 	height:400px;
 	-webkit-transform: translateZ(500px) scale(1.1);
     transform: translateZ(500px) scale(1.1);
+    overflow:hidden;
 }
 #aboutbox{
 	position: relative;
@@ -249,6 +256,15 @@ a{
 	width:100vw;
 	height:100px;
 	background:#111111;
+}
+
+#markcred{
+	position:relative;
+	float:left;
+	margin-left: 50px;
+	color:#999999;
+	top:50%;
+	transform:translateY(-50%);
 }
 
 #copyright{
